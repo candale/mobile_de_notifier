@@ -1,6 +1,6 @@
 import json
 import os
-import re
+import urlparse
 import logging
 
 import scrapy
@@ -15,21 +15,14 @@ logger = logging.getLogger(__name__)
 
 class MobileDeSpider(scrapy.Spider):
     class Xpath:
-        INACTIVE_PAGE_NUMBER = ("//span[@class='pagination-page-number']//a")
-        ACTIVR_PAGE_NUMBER = (
-            "//span[@class='pagination-page-number']//span[@class='active']")
-        RESULT_PAGE_CAR_URL = (
-            "//a[@class='row vehicle-data']/@href")
-
-    URL_PAGE_NUMBER_REGEX = re.compile(
-        '(?P<page_id>pgn)(?P<sep>:)(?P<page_number>\d+)')
+        RESULT_PAGE_CAR_URL = "//a[@class='row vehicle-data']/@href"
+        NEXT_PAGE_XPATH = "//a[contains(@class, 'pagination-nav-right')]/@href"
 
     name = 'mobile_de'
     allowed_domains = ["mobile.de"]
 
     def __init__(self):
         logger.info('Started mobile_de spider')
-        self.number_of_result_pages = None
 
     def start_requests(self):
         conf_path = os.path.join(
@@ -37,29 +30,6 @@ class MobileDeSpider(scrapy.Spider):
         urls_conf = json.load(open(conf_path, 'r'))
         for url in urls_conf['urls']:
             yield Request(url)
-
-    def get_page_number_from_url(self, url):
-        page_str_search = self.URL_PAGE_NUMBER_REGEX.search(url)
-        if page_str_search:
-            page_number = page_str_search.group('page_number')
-            return int(page_number)
-
-        return None
-
-    def get_next_page_url(self, current_url):
-        '''
-        The pagination in for mobile.de is contained as parameter in the
-        URL under the from
-            ...,param1:x,pgn:page_number,param2:y,...
-        All we need to do is replace pgn with the next number
-        '''
-        current_page = self.get_page_number_from_url(current_url)
-        if current_page == self.number_of_result_pages:
-            return None
-
-        # this might be overkill
-        sub_regex = "\g<page_id>\g<sep>{}".format(current_page + 1)
-        return self.URL_PAGE_NUMBER_REGEX.sub(sub_regex, current_url)
 
     def get_page_cars_urls(self, response):
         '''
@@ -70,26 +40,23 @@ class MobileDeSpider(scrapy.Spider):
 
         return [car_url.extract() for car_url in car_hrefs]
 
-    def get_number_of_result_pages(self, response):
-        number_of_inactive_pages = len(
-            response.xpath(self.Xpath.INACTIVE_PAGE_NUMBER)
-        )
-        active_page = len(response.xpath(self.Xpath.ACTIVR_PAGE_NUMBER))
+    def get_next_page_url(self, response):
+        next_url = response.xpath(self.Xpath.NEXT_PAGE_XPATH)
+        if next_url is None:
+            return None
 
-        return number_of_inactive_pages + active_page
+        url = next_url[0].extract()
+
+        return urlparse.urljoin('http://www.mobile.de', url)
 
     def parse(self, response):
-        # Get the number of result pages
-        if self.number_of_result_pages is None:
-            self.number_of_result_pages = (
-                self.get_number_of_result_pages(response))
-
         # Parse the main page of each car from the result page
         for car_url in self.get_page_cars_urls(response):
             yield Request(car_url, callback=self.parse_car)
 
         # Get the next result page and parse it
-        next_url = self.get_next_page_url(response.url)
+        import pudb; pu.db
+        next_url = self.get_next_page_url(response)
         if next_url:
             yield Request(next_url)
 
