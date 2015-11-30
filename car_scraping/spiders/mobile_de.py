@@ -55,7 +55,6 @@ class MobileDeSpider(scrapy.Spider):
             yield Request(car_url, callback=self.parse_car)
 
         # Get the next result page and parse it
-        import pudb; pu.db
         next_url = self.get_next_page_url(response)
         if next_url:
             yield Request(next_url)
