@@ -18,15 +18,42 @@ USER_AGENT = (
 # File from where the search URLs are taken
 SEARCHES_URL_CONF = 'conf/search_urls.json'
 
-# File where the scraped cars will be stored
-DATABASE_FILE = 'scraped_data/database.json'
-
-# Enable or disable downloader middlewares
-#DOWNLOADER_MIDDLEWARES = {
-#    'car_scraping.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+# Path to the database
+DATABSE_FILE = 'db/cars.db'
 
 # Configure item pipelines
 ITEM_PIPELINES = {
    'car_scraping.pipelines.CarScrapingPipeline': 300,
+}
+
+# Logger setup
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s | %(asctime)s | <%(module)s>: %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'level': 'INFO',
+            'formatter': 'simple'
+        },
+        'file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'logging/mobile_de.log',
+            'formatter': 'verbose'
+        }
+    },
+    'loggers': {
+        'car_scraping': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        }
+    }
 }
