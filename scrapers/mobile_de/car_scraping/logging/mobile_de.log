@@ -1,0 +1,265 @@
+INFO 2015-11-30 14:55:01,860 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A6-Avant-2.0-TDI-DPF-multitronic7G-S/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796941.html)
+INFO 2015-11-30 14:55:01,862 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A3-1.6-Ambiente/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796962.html)
+INFO 2015-11-30 14:55:01,870 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Audi-A3-2%2C0d-l%C3%BCckenlos-Scheckheft-Tuv10/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796970.html)
+INFO 2015-11-30 14:55:01,878 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A1-1.4-TFSI-S-line-Panorama/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218285757.html)
+INFO 2015-11-30 14:55:02,056 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-Avant-2.0-TDI-DPF-S-line%2C-NAVI%2CLEDER/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218797002.html)
+INFO 2015-11-30 14:55:02,070 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-1.8-HU-AU-bis-09.2017/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218797003.html)
+INFO 2015-11-30 14:55:02,097 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html)
+INFO 2015-11-30 14:55:02,130 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Audi-A4-Limousine-AHK-HU-02-16/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218797011.html)
+INFO 2015-11-30 14:55:02,241 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-Avant-2.5-TDI-S-Line/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796964.html)
+INFO 2015-11-30 14:55:02,242 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-2.0-TDI-Quattro-Ambiente/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796996.html)
+INFO 2015-11-30 14:55:02,280 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html)
+INFO 2015-11-30 14:55:02,296 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html)
+INFO 2015-11-30 14:55:02,317 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html)
+INFO 2015-11-30 14:55:02,323 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html)
+INFO 2015-11-30 14:55:02,370 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html)
+INFO 2015-11-30 14:55:02,454 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A3-Sportback-1.4-TFSI-Attraction/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218414828.html)
+INFO 2015-11-30 14:55:02,551 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-Avant-2.0-TDI-Attraction-Navi%2C-Xenon/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218094937.html)
+INFO 2015-11-30 14:55:02,571 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Audi-A4-B5-Kombi/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796723.html)
+INFO 2015-11-30 14:55:02,605 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Q7-3.0-TDI%2C-EG-III%2C-Klimatronik%2C-Navi%2C/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796749.html)
+INFO 2015-11-30 14:55:02,644 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html)
+INFO 2015-11-30 14:55:02,654 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html)
+INFO 2015-11-30 14:55:02,674 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Audi-A6-C4-2.6%2C-1.-Hand/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796750.html)
+INFO 2015-11-30 14:55:02,701 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html)
+INFO 2015-11-30 14:55:11,750 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-Audi-A6-C4-2.6l-V6-150-ps/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796780.html)
+INFO 2015-11-30 14:55:12,371 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-Avant-2.0/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796788.html)
+INFO 2015-11-30 14:55:20,988 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A6-Avant-2.0-TDI-DPF/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796832.html)
+INFO 2015-11-30 14:55:20,990 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-1.8-HU-AUbis-09.2017/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796870.html)
+INFO 2015-11-30 14:55:20,992 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A4-1.9-TDI/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/218796884.html)
+INFO 2015-11-30 14:55:20,993 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Audi-A3-2.0-TDI-Sportback-DSG-AT-5dr/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:1900%3B%3B,prx:15001/pg:vipcar/214209786.html)
+INFO 2015-11-30 14:55:20,995 pipelines 11298 140098927953728 Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html)
+INFO | 2015-11-30 15:05:37,783 | <mobile_de>: Started mobile_de spider
+INFO | 2015-11-30 15:05:40,306 | <pipelines>: Created car item with title Audi A4 1.9 TDI *Klimaautomatik*Alufelgen*SR+WR*
+INFO | 2015-11-30 15:05:41,093 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI DPF Attraction*Gepflegt
+INFO | 2015-11-30 15:05:41,671 | <pipelines>: Created car item with title Audi Audi A8 voll fahrbereit Leder Schiebedach
+INFO | 2015-11-30 15:05:41,880 | <pipelines>: Created car item with title Audi A3 1.6 Attraction
+INFO | 2015-11-30 15:05:42,081 | <pipelines>: Created car item with title Audi A3 Sportback 2.0 TFSI Ambition quattro
+INFO | 2015-11-30 15:05:43,572 | <pipelines>: Created car item with title Audi TT Roadster VoLL Nappa-Leder Navi BOSE Xenon 18Z
+INFO | 2015-11-30 15:05:44,141 | <pipelines>: Created car item with title Audi A4 Avant 1.9 TDI 
+INFO | 2015-11-30 15:05:45,682 | <pipelines>: Created car item with title Audi A4 2.0 TDI *EXCLUSIVE-Line* Tiptr. MMI Leder PDC
+INFO | 2015-11-30 15:05:45,858 | <pipelines>: Created car item with title Audi TT 3.2 Coupe quattro*BI-XENON*Voll Scheckheft
+INFO | 2015-11-30 15:05:45,878 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-11-30 15:05:45,881 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-11-30 15:05:45,883 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-11-30 15:05:46,981 | <pipelines>: Created car item with title Audi A4 2.0 TDI Motor 0 Km,Navy,Winterreifen
+INFO | 2015-11-30 15:05:46,982 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-11-30 15:05:46,983 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-11-30 15:05:46,985 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-11-30 15:05:47,307 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI DPF*S-line, NAVI,LEDER+GARANTIE
+INFO | 2015-11-30 15:05:48,312 | <pipelines>: Created car item with title Audi A4 1.8 HU/AU bis 09.2017
+INFO | 2015-11-30 15:05:49,033 | <pipelines>: Created car item with title Audi Audi A4 Limousine AHK HU 02/16
+INFO | 2015-11-30 15:05:49,953 | <pipelines>: Created car item with title Audi Verkaufe A6 Avant
+INFO | 2015-11-30 15:05:51,168 | <pipelines>: Created car item with title Audi A3 Sportback 1.4 TFSI Attraction
+INFO | 2015-11-30 15:05:51,461 | <pipelines>: Created car item with title Audi A3 Sportback Ambiente 1,2 TFSI Klima
+INFO | 2015-11-30 15:05:52,248 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI DPF S Line Sportpaket 1 Hand
+INFO | 2015-11-30 15:05:52,552 | <pipelines>: Created car item with title Audi A4 2.0 TFSI
+INFO | 2015-11-30 15:05:52,566 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-11-30 15:05:52,586 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-11-30 15:05:53,180 | <pipelines>: Created car item with title Audi A4 Avant 2.5 TDI 
+INFO | 2015-11-30 15:05:53,181 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-11-30 15:05:53,182 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-11-30 15:05:53,380 | <pipelines>: Created car item with title Audi A3 Sportback 2.0 TDI Ambition*DSG S TRO*PANO*HU*
+INFO | 2015-11-30 15:05:53,419 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6-Chrommodell/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/203985232.html
+INFO | 2015-11-30 15:05:53,421 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C0-Rennwagen-mit/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/197681066.html
+INFO | 2015-11-30 15:05:53,423 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C0-Oldtimer-TOP.-T%C3%9CV/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217108475.html
+INFO | 2015-11-30 15:05:53,426 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Lusso/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/210988046.html
+INFO | 2015-11-30 15:05:53,427 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/216003680.html
+INFO | 2015-11-30 15:05:54,041 | <pipelines>: Created car item with title Audi A4 Avant 2.0 
+INFO | 2015-11-30 15:05:54,570 | <pipelines>: Created car item with title Audi A6 Avant 2.0 TDI DPF
+INFO | 2015-11-30 15:05:54,779 | <pipelines>: Created car item with title Audi A4 1.9 TDI
+INFO | 2015-11-30 15:05:56,252 | <pipelines>: Created car item with title Audi A3 2.0 TDI Sportback DSG (AT) 5dr unfallfrei
+INFO | 2015-11-30 15:05:56,253 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1600-GT-Super-sauber/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/189069531.html
+INFO | 2015-11-30 15:05:56,257 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-Italienimport-mit/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/212034356.html
+INFO | 2015-11-30 15:05:56,282 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/208575682.html
+INFO | 2015-11-30 15:05:57,165 | <pipelines>: Created car item with title Audi A4 Avant 2.5 TDI S-Line 
+INFO | 2015-11-30 15:05:57,759 | <pipelines>: Created car item with title Audi A3 1.6 Ambiente
+INFO | 2015-11-30 15:05:58,287 | <pipelines>: Created car item with title Audi 2.0 TDI Quattro Ambiente
+INFO | 2015-11-30 15:05:58,891 | <pipelines>: Created car item with title Audi A6 Avant 2.0 TDI DPF multitronic7G S-LineFelgen
+INFO | 2015-11-30 15:05:58,892 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GT-1.6/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217155992.html
+INFO | 2015-11-30 15:05:59,761 | <pipelines>: Created car item with title Audi A1  1.4 TFSI S line Panorama
+INFO | 2015-11-30 15:06:01,955 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI Sportfahrwerk 
+INFO | 2015-11-30 15:06:03,295 | <pipelines>: Created car item with title Audi A4 2.4 Automatik Navi Sitzheizung Klimatronik 
+INFO | 2015-11-30 15:06:04,887 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI Attraction Navi, Xenon
+INFO | 2015-11-30 15:06:06,134 | <pipelines>: Created car item with title Audi A4 2.0 aus 2 Hand erst 111162 km Klimaautomatik
+INFO | 2015-11-30 15:06:07,617 | <pipelines>: Created car item with title Audi Q7 3.0 TDI, EG III, Klimatronik, Navi, Alu
+INFO | 2015-11-30 15:06:08,531 | <pipelines>: Created car item with title Audi Audi A3 2.0Tdi Vollausstattung sparsam Xen...
+INFO | 2015-11-30 15:06:09,184 | <pipelines>: Created car item with title Audi Audi A4 B5 Kombi
+INFO | 2015-11-30 15:06:10,239 | <pipelines>: Created car item with title Audi Audi A6 C4 2.6l V6 150 ps
+INFO | 2015-11-30 15:06:10,683 | <pipelines>: Created car item with title Audi A4 Avant 2.0 
+INFO | 2015-11-30 15:06:11,386 | <pipelines>: Created car item with title Audi Audi A6 C4 2.6, 1. Hand
+INFO | 2015-11-30 15:06:12,006 | <pipelines>: Created car item with title Audi A6 Avant 2.5TDI quattro
+INFO | 2015-11-30 15:06:12,450 | <pipelines>: Created car item with title Audi A6 Avant 3.0 TDI tiptronic DPF quattro 
+INFO | 2015-11-30 15:06:12,894 | <pipelines>: Created car item with title Audi A4 Lim. 1.6
+INFO | 2015-11-30 15:06:13,529 | <pipelines>: Created car item with title Audi A3 2.0 TDI Ambition
+INFO | 2015-11-30 15:06:14,108 | <pipelines>: Created car item with title Audi A6 3.0 TDI tiptronic DPF quattro 19" Mam Felgen
+INFO | 2015-11-30 15:06:15,623 | <pipelines>: Created car item with title Audi A4 Avant Ambiente NAVI/XENON
+INFO | 2015-11-30 15:06:16,110 | <pipelines>: Created car item with title Audi A4 Avant 1.9 TDI DPF -1Hand-
+INFO | 2015-11-30 15:06:16,503 | <pipelines>: Created car item with title Audi A6 Avant 1.9 TDI 
+INFO | 2015-11-30 15:06:17,105 | <pipelines>: Created car item with title Audi A3 2.0 TDI Sportback DPF
+INFO | 2015-11-30 15:06:18,119 | <pipelines>: Created car item with title Audi Audi A3 Sportback 2.0
+INFO | 2015-11-30 15:06:19,776 | <pipelines>: Created car item with title Audi A4 Avant 2.0 Autom.Standheiz. AZV SD HU+AU 01/17
+INFO | 2015-11-30 15:06:20,447 | <pipelines>: Created car item with title Audi A6 2.5 TDI 
+INFO | 2015-11-30 15:06:20,756 | <pipelines>: Created car item with title Audi Audi A3 1.9 TDI navi
+INFO | 2015-11-30 15:06:22,348 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI DPF S-LINE Xenon Navi 125kw
+INFO | 2015-11-30 15:06:23,856 | <pipelines>: Created car item with title Audi A4 2.0 TDI,Modell-2009,18-Zoll,EURO-4!!!!
+INFO | 2015-11-30 15:06:24,450 | <pipelines>: Created car item with title Audi A4 Avant 2.0 TDI 
+INFO | 2015-11-30 15:06:25,119 | <pipelines>: Created car item with title Audi SportBack 2.0 TDI Ambition
+INFO | 2015-11-30 15:06:25,304 | <pipelines>: Created car item with title Audi A4 2.0 TFSI, Kombi Avant Attraction (EURO 5)
+INFO | 2015-11-30 15:06:26,978 | <pipelines>: Created car item with title Audi A4 Avant Ambiente NAVI/XENON
+INFO | 2015-11-30 15:06:27,413 | <pipelines>: Created car item with title Audi A6 Avant 3.0 TDI tiptronic DPF quattro 
+INFO | 2015-12-01 00:28:03,625 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:28:04,630 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:28:04,770 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:28:04,774 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:28:04,779 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:28:04,787 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:28:04,788 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:28:04,822 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:28:04,842 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:28:04,856 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:28:04,990 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:28:37,213 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:28:45,351 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:28:45,511 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:28:45,516 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:28:45,546 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:28:45,555 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:28:45,556 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:28:45,720 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:28:45,725 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:28:45,742 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:28:45,752 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:28:52,653 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:29:01,573 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:29:01,706 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:29:01,715 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:29:01,716 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:29:01,718 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:29:01,727 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:29:01,776 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:29:01,889 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:29:01,911 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:29:02,097 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:29:13,443 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:29:32,429 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:29:32,625 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:29:32,627 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:29:32,632 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:29:32,647 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:29:32,817 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:29:32,819 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:29:32,837 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:29:32,993 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:29:33,037 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:30:07,663 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:30:16,540 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:30:16,682 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:30:16,698 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:30:16,700 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:30:16,701 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:30:16,706 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:30:16,708 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:30:16,777 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:30:16,982 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:30:17,080 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:30:33,685 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:30:39,740 | <pipelines>: Created car item with title Alfa Romeo Alfetta GTV 2,0  erste Serie +H- Kennzeichen
+INFO | 2015-12-01 00:30:40,930 | <pipelines>: Created car item with title Alfa Romeo Alfetta
+INFO | 2015-12-01 00:30:42,061 | <pipelines>: Created car item with title Alfa Romeo Alfetta
+INFO | 2015-12-01 00:30:42,689 | <pipelines>: Created car item with title Alfa Romeo Alfetta QU
+INFO | 2015-12-01 00:30:43,838 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2.0 nur 35.000KM Top Zustand
+INFO | 2015-12-01 00:30:45,102 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2.0 aus 2 Hand 
+INFO | 2015-12-01 00:30:45,706 | <pipelines>: Created car item with title Alfa Romeo Alfetta
+INFO | 2015-12-01 00:30:47,164 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2.0 L Lusso
+INFO | 2015-12-01 00:30:48,697 | <pipelines>: Created car item with title Alfa Romeo Alfetta GTV 2000
+INFO | 2015-12-01 00:30:50,222 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2.0 Quadrifoglio Oro
+INFO | 2015-12-01 00:32:30,785 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:32:53,270 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:32:53,474 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:32:53,629 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:32:53,631 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:32:53,632 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:32:53,637 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:32:53,642 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:32:53,646 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:32:53,692 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:32:53,904 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:43:25,956 | <mobile_de>: Started mobile_de spider
+INFO | 2015-12-01 00:43:34,702 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217570924.html
+INFO | 2015-12-01 00:43:34,714 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/196194892.html
+INFO | 2015-12-01 00:43:34,725 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-QU/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217577105.html
+INFO | 2015-12-01 00:43:34,727 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/214623347.html
+INFO | 2015-12-01 00:43:34,729 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218010597.html
+INFO | 2015-12-01 00:43:34,731 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217694308.html
+INFO | 2015-12-01 00:43:34,733 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/217307192.html
+INFO | 2015-12-01 00:43:34,734 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218253861.html
+INFO | 2015-12-01 00:43:34,929 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Quadrifoglio-Oro/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/218732473.html
+INFO | 2015-12-01 00:43:36,069 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2,0 Rennwagen mit Historie ONS Wagenpass
+INFO | 2015-12-01 00:43:36,621 | <pipelines>: Created car item with title Alfa Romeo Alfetta GTV Italienimport mit Klima
+INFO | 2015-12-01 00:43:36,635 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,mke:900,mdl:14,prx:15001/pg:vipcar/209846803.html
+INFO | 2015-12-01 00:43:38,205 | <pipelines>: Created car item with title Alfa Romeo Alfetta 1.6
+INFO | 2015-12-01 00:43:39,780 | <pipelines>: Created car item with title Alfa Romeo Alfetta
+INFO | 2015-12-01 00:43:40,953 | <pipelines>: Created car item with title Alfa Romeo Alfetta GT 1.6
+INFO | 2015-12-01 00:43:42,016 | <pipelines>: Created car item with title Alfa Romeo Alfetta 1600 GT -  Super sauber 
+INFO | 2015-12-01 00:43:43,574 | <pipelines>: Created car item with title Alfa Romeo Alfetta 1.6 - Chrommodell
+INFO | 2015-12-01 00:43:44,212 | <pipelines>: Created car item with title Alfa Romeo Alfetta 2.0 Lusso
+INFO | 2016-01-04 23:17:55,575 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:19:26,539 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:20:20,008 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:21:36,547 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:22:19,568 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:22:39,334 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:22:41,499 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:23:20,710 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:25:26,544 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:26:51,226 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:27:47,078 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:27:57,338 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:28:09,806 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:28:50,500 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GT-Sprint-Veloce/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219252764.html
+INFO | 2016-01-04 23:28:51,705 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217307192.html
+INFO | 2016-01-04 23:28:52,180 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217694308.html
+INFO | 2016-01-04 23:28:52,400 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/209846803.html
+INFO | 2016-01-04 23:28:52,548 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218253861.html
+INFO | 2016-01-04 23:28:52,710 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219730193.html
+INFO | 2016-01-04 23:28:52,843 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-TOP%2C-T%C3%9CV-17%2C-Oldtimer-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219855227.html
+INFO | 2016-01-04 23:28:52,979 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219996414.html
+INFO | 2016-01-04 23:28:53,233 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218010597.html
+INFO | 2016-01-04 23:28:53,457 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C5-V6-Pick-Up/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217698781.html
+INFO | 2016-01-04 23:28:53,596 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6-Chrommodell/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/203985232.html
+INFO | 2016-01-04 23:28:53,723 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C0-Rennwagen-mit/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/197681066.html
+INFO | 2016-01-04 23:28:53,857 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1600-GT-Super-sauber/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/189069531.html
+INFO | 2016-01-04 23:28:53,992 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/208575682.html
+INFO | 2016-01-04 23:28:54,225 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Lusso/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/210988046.html
+INFO | 2016-01-04 23:29:10,354 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:29:10,821 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/209846803.html
+INFO | 2016-01-04 23:29:10,844 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217307192.html
+INFO | 2016-01-04 23:29:10,852 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218010597.html
+INFO | 2016-01-04 23:29:10,854 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217694308.html
+INFO | 2016-01-04 23:29:10,864 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GT-Sprint-Veloce/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219252764.html
+INFO | 2016-01-04 23:29:10,873 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218253861.html
+INFO | 2016-01-04 23:29:10,875 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C5-V6-Pick-Up/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217698781.html
+INFO | 2016-01-04 23:29:10,920 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219730193.html
+INFO | 2016-01-04 23:29:10,940 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219996414.html
+INFO | 2016-01-04 23:29:10,944 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-TOP%2C-T%C3%9CV-17%2C-Oldtimer-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219855227.html
+INFO | 2016-01-04 23:29:11,001 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1600-GT-Super-sauber/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/189069531.html
+INFO | 2016-01-04 23:29:11,010 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6-Chrommodell/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/203985232.html
+INFO | 2016-01-04 23:29:11,012 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C0-Rennwagen-mit/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/197681066.html
+INFO | 2016-01-04 23:29:11,038 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/208575682.html
+INFO | 2016-01-04 23:29:11,040 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Lusso/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/210988046.html
+INFO | 2016-01-04 23:29:14,065 | <mobile_de>: Started mobile_de spider
+INFO | 2016-01-04 23:29:14,518 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218253861.html
+INFO | 2016-01-04 23:29:14,521 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GT-Sprint-Veloce/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219252764.html
+INFO | 2016-01-04 23:29:14,523 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C5-V6-Pick-Up/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217698781.html
+INFO | 2016-01-04 23:29:14,528 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-L-Lusso/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217694308.html
+INFO | 2016-01-04 23:29:14,533 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/209846803.html
+INFO | 2016-01-04 23:29:14,541 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-nur-35.000KM-Top/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/218010597.html
+INFO | 2016-01-04 23:29:14,561 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2000/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219996414.html
+INFO | 2016-01-04 23:29:14,563 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-TOP%2C-T%C3%9CV-17%2C-Oldtimer-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219855227.html
+INFO | 2016-01-04 23:29:14,572 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-GTV-2%2C0-erste-Serie-H/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/217307192.html
+INFO | 2016-01-04 23:29:14,588 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-aus-2-Hand/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/219730193.html
+INFO | 2016-01-04 23:29:14,673 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2%2C0-Rennwagen-mit/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/197681066.html
+INFO | 2016-01-04 23:29:14,689 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1600-GT-Super-sauber/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/189069531.html
+INFO | 2016-01-04 23:29:14,692 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6-Chrommodell/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/203985232.html
+INFO | 2016-01-04 23:29:14,718 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-1.6/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/208575682.html
+INFO | 2016-01-04 23:29:14,721 | <pipelines>: Got item that was already processed (url: http://www.mobile.de/ro/Automobil/Alfa-Romeo-Alfetta-2.0-Lusso/vhc:car,cnt:de,pgn:2,pgs:10,srt:date,sro:desc,ms1:900_14_/pg:vipcar/210988046.html
