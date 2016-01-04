@@ -1,7 +1,7 @@
 import json
 import os
-import urllib
-import re
+import urlparse
+import logging
 
 import scrapy
 from scrapy import Request
@@ -10,21 +10,19 @@ import car_scraping.items as items
 from car_scraping.utils import extract_text_from_html
 
 
+logger = logging.getLogger(__name__)
+
+
 class MobileDeSpider(scrapy.Spider):
     class Xpath:
-        INACTIVE_PAGE_NUMBER = ("//span[@class='pagination-page-number']//a")
-        ACTIVR_PAGE_NUMBER = (
-            "//span[@class='pagination-page-number']//span[@class='active']")
-        RESULT_PAGE_CAR_URL = (
-            "//a[starts-with(@id, 'entryVehicle')]/@href")
-
-    URL_PAGE_NUMBER_REGEX = re.compile('(?P<page_id>pgn)(?P<sep>:)(?P<page_number>\d+)')
+        RESULT_PAGE_CAR_URL = "//a[@class='row vehicle-data']/@href"
+        NEXT_PAGE_XPATH = "//a[contains(@class, 'pagination-nav-right')]/@href"
 
     name = 'mobile_de'
     allowed_domains = ["mobile.de"]
 
     def __init__(self):
-        self.number_of_result_pages = None
+        logger.info('Started mobile_de spider')
 
     def start_requests(self):
         conf_path = os.path.join(
@@ -32,29 +30,6 @@ class MobileDeSpider(scrapy.Spider):
         urls_conf = json.load(open(conf_path, 'r'))
         for url in urls_conf['urls']:
             yield Request(url)
-
-    def get_page_number_from_url(self, url):
-        page_str_search = self.URL_PAGE_NUMBER_REGEX.search(url)
-        if page_str_search:
-            page_number = page_str_search.group('page_number')
-            return int(page_number)
-
-        return None
-
-    def get_next_page_url(self, current_url):
-        '''
-        The pagination in for mobile.de is contained as parameter in the
-        URL under the from
-            ...,param1:x,pgn:page_number,param2:y,...
-        All we need to do is replace pgn with the next number
-        '''
-        current_page = self.get_page_number_from_url(current_url)
-        if current_page == self.number_of_result_pages:
-            return None
-
-        # this might be overkill
-        sub_regex = "\g<page_id>\g<sep>{}".format(current_page + 1)
-        return self.URL_PAGE_NUMBER_REGEX.sub(sub_regex, current_url)
 
     def get_page_cars_urls(self, response):
         '''
@@ -65,26 +40,22 @@ class MobileDeSpider(scrapy.Spider):
 
         return [car_url.extract() for car_url in car_hrefs]
 
-    def get_number_of_result_pages(self, response):
-        number_of_inactive_pages = len(
-            response.xpath(self.Xpath.INACTIVE_PAGE_NUMBER)
-        )
-        active_page = len(response.xpath(self.Xpath.ACTIVR_PAGE_NUMBER))
+    def get_next_page_url(self, response):
+        next_url = response.xpath(self.Xpath.NEXT_PAGE_XPATH)
+        if next_url is None:
+            return None
 
-        return number_of_inactive_pages + active_page
+        url = next_url[0].extract()
+
+        return urlparse.urljoin('http://www.mobile.de', url)
 
     def parse(self, response):
-        # Get the number of result pages
-        if self.number_of_result_pages is None:
-            self.number_of_result_pages = (
-                self.get_number_of_result_pages(response))
-
         # Parse the main page of each car from the result page
         for car_url in self.get_page_cars_urls(response):
             yield Request(car_url, callback=self.parse_car)
 
         # Get the next result page and parse it
-        next_url = self.get_next_page_url(response.url)
+        next_url = self.get_next_page_url(response)
         if next_url:
             yield Request(next_url)
 
@@ -100,18 +71,39 @@ class MobileDeSpider(scrapy.Spider):
 
     def get_title(self, response):
         titles = response.xpath("//h1[contains(@class, 'vehicle-title')]/text()")
-        return titles[0].extract() if titles else None
+        if titles is None:
+            logger.warning(
+                'Could not get page title from page {}'.format(response.url))
+            return None
+
+        return titles[0].extract()
 
     def get_price(self, response):
-        prices = response.xpath("//p[contains(@class, 'locale-price')]/text()")
-        return prices[0].extract() if prices else None
+        prices = response.xpath("//p[contains(@class, 'netto-price')]/text()")
+
+        if prices is None:
+            logger.warning(
+                'Could not get price from page {}'.format(response.url))
+            return None
+
+        return prices[0].extract()
 
     def get_seller_info(self, response):
         seller_info = response.xpath("//div[contains(@class, 'seller-info')]")
+        if seller_info is None:
+            logger.warning(
+                'Could not get seller info from page {}'.format(response.url))
+            return None
+
         return '\n'.join(
             [extract_text_from_html(info.extract()) for info in seller_info]
         )
 
     def get_photos_urls(self, response):
         photo_urls = response.xpath("//img[@class='slick-img']/@src")
+        if photo_urls is None:
+            logger.warning(
+                'Could not get photos from page {}'.format(response.url))
+            return None
+
         return [photo_url.extract() for photo_url in photo_urls]
