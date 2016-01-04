@@ -60,7 +60,6 @@ LOGGING = {
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
-            'level': 'INFO',
             'formatter': 'simple'
         },
         'file': {
@@ -73,6 +72,10 @@ LOGGING = {
         'car_scraping': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
+        },
+        'scrapy': {
+            'handlers': ['console', 'file'],
+            'level': 'WARNING'
         }
     }
 }
