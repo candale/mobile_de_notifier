@@ -42,7 +42,7 @@ class CarScrapingPipeline(object):
             seller_info=item['seller_info']
         )
 
-        for photo_urk in item['photos_urls']:
+        for photo_url in item['photos_urls']:
             django_cars_models.MobileDeUrlPhoto.objects.create(
                 car=car_obj,
                 url=photo_url
