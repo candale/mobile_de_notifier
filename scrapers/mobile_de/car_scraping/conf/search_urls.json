@@ -1,5 +1,6 @@
 {
     "urls": [
-        "http://www.mobile.de/ro/categorie/automobil/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_"
+        "http://www.mobile.de/ro/categorie/automobil/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:900_14_",
+	"http://www.mobile.de/ro/categorie/automobil/vhc:car,cnt:de,pgn:1,pgs:10,srt:date,sro:desc,ms1:1900__"
     ]
 }
