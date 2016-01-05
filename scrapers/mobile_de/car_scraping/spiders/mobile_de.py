@@ -42,7 +42,7 @@ class MobileDeSpider(scrapy.Spider):
 
     def get_next_page_url(self, response):
         next_url = response.xpath(self.Xpath.NEXT_PAGE_XPATH)
-        if next_url is None:
+        if not next_url:
             return None
 
         url = next_url[0].extract()
@@ -71,7 +71,7 @@ class MobileDeSpider(scrapy.Spider):
 
     def get_title(self, response):
         titles = response.xpath("//h1[contains(@class, 'vehicle-title')]/text()")
-        if titles is None:
+        if not titles:
             logger.warning(
                 'Could not get page title from page {}'.format(response.url))
             return None
@@ -81,7 +81,7 @@ class MobileDeSpider(scrapy.Spider):
     def get_price(self, response):
         prices = response.xpath("//p[contains(@class, 'netto-price')]/text()")
 
-        if prices is None:
+        if not prices:
             logger.warning(
                 'Could not get price from page {}'.format(response.url))
             return None
@@ -90,7 +90,7 @@ class MobileDeSpider(scrapy.Spider):
 
     def get_seller_info(self, response):
         seller_info = response.xpath("//div[contains(@class, 'seller-info')]")
-        if seller_info is None:
+        if not seller_info:
             logger.warning(
                 'Could not get seller info from page {}'.format(response.url))
             return None
@@ -101,7 +101,7 @@ class MobileDeSpider(scrapy.Spider):
 
     def get_photos_urls(self, response):
         photo_urls = response.xpath("//img[@class='slick-img']/@src")
-        if photo_urls is None:
+        if not photo_urls:
             logger.warning(
                 'Could not get photos from page {}'.format(response.url))
             return None
