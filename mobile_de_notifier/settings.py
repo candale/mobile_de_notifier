@@ -123,8 +123,24 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Scheduler settings
+
+# Frequency of scheduler polling in minutes
+SCHEDULER_BEAT_INTERVAL = 5
+
+# Used for resolving the path to python executable
+RUNNING_IN_VIRTUALENV = True
+
+SHEDUELR_SCRIPTS_DIRECTORY = os.path.join(BASE_DIR, 'scripts')
+
+# The script that triggers the crawler and mail sending
+SCHDEULER_SCRIPT_NAME = 'scheduler.py'
+
+# The user whose crontab file will be used
+CRONTAB_USER = 'root'
+
+CRONTAB_ENTRY_COMMENT = "python_mobile_de_notifier_scheduler"
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
