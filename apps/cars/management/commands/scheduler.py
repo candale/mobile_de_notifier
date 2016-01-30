@@ -8,18 +8,23 @@ from crontab import CronTab
 
 
 class Command(BaseCommand):
-    help = 'Manage crontab tasks'
+    help = 'Start or stop the '
+    missing_args_message = "You need to either 'start' or 'stop'"
 
     def __init__(self, *args, **kwargs):
+        super(Command, self).__init__(*args, **kwargs)
         self._crontab = CronTab(user=settings.CRONTAB_USER)
 
     def add_arguments(self, parser):
-        parser.add_argument(
-            'start', action='store_true', dest='start', default=False,
+        start_group = parser.add_mutually_exclusive_group()
+        stop_group = parser.add_mutually_exclusive_group()
+
+        start_group.add_argument(
+            '-s', '--start', action='store_true',
             help='Start crontab scheduler for scraping and email sending')
 
-        parser.add_argument(
-            'stop', action='store_true', dest='stop', default=False,
+        stop_group.add_argument(
+            '-x', '--stop', action='store_true',
             help='Stop crontab scheduler for scraping and email sending')
 
     def get_python_path(self):
@@ -47,8 +52,11 @@ class Command(BaseCommand):
                 'There are more than one job with the configured comment')
 
         if not jobs_list:
-            job = self._crontab.new(command=self.get_command())
-            job.every(settings.SCHEDULER_BEAT_INTERVAL)
+            job = self._crontab.new(
+                command=self.get_command(),
+                comment=settings.CRONTAB_ENTRY_COMMENT
+            )
+            job.minute.every(settings.SCHEDULER_BEAT_INTERVAL)
             job.enable(False)
         else:
             job = jobs_list[0]
