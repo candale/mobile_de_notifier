@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import logging
 from urlparse import urlsplit
-import re
 
 from cars import models as django_cars_models
 
@@ -9,8 +8,6 @@ logger = logging.getLogger(__name__)
 
 
 class CarScrapingPipeline(object):
-    url_regex = re.compile("^/(?P<lang>[a-zA-Z]{,4})/[^/]+/(?P<title>[^/]+).*/(?P<id>[0-9]+\.html$)")
-
     def get_id_from_url(self, url):
         '''
         Expected url format:

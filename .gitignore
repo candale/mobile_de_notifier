@@ -71,6 +71,9 @@ htmlcov
 # random staff
 removecache.sh
 
+# static files
+static
+
 *.db
 log
 log/*

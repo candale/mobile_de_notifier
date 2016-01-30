@@ -34,7 +34,8 @@ OTHER_APPS = [
 ]
 
 MY_APPS = [
-    'cars'
+    'cars',
+    'notifications'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + OTHER_APPS + MY_APPS
@@ -62,11 +63,13 @@ SESSION_COOKIE_AGE = 604800
 
 ROOT_URLCONF = 'mobile_de_notifier.urls'
 
+LOGIN_REDIRECT_URL = '/searches'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, "cars/templates"),
+            os.path.join(BASE_DIR, "templates"),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -81,7 +84,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mobile_de_notifier.wsgi.application'
-
 
 # Database
 
@@ -128,3 +130,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
