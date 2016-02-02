@@ -36,7 +36,7 @@ DJANGO_APPS = [
 ]
 
 OTHER_APPS = [
-    'twitter_bootstrap',
+
 ]
 
 MY_APPS = [
