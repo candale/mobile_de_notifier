@@ -20,11 +20,18 @@ class SearchUrl(models.Model):
     title = models.CharField(max_length=128)
     url = models.URLField(max_length=2048)
     subscribe_email = models.EmailField()
+
     update_interval = models.IntegerField()
     interval_measure = models.CharField(
         max_length=16, choices=INTERVAL_MEASURE_CHOICES)
-    is_active = models.BooleanField(default=False)
     next_run_date = models.DateTimeField(null=True)
+
+    mail_sending_interval = models.IntegerField()
+    mail_interval_measure = models.CharField(
+        max_length=16, choices=INTERVAL_MEASURE_CHOICES)
+    next_mailing_run_date = models.DateTimeField(null=True)
+
+    is_active = models.BooleanField(default=False)
     number_of_times_scraped = models.IntegerField(default=0)
 
     def increment_scraped_counter(self):

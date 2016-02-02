@@ -7,3 +7,4 @@ class CarItem(scrapy.Item):
     price = scrapy.Field()
     seller_info = scrapy.Field()
     photos_urls = scrapy.Field()
+    origin_search_url = scrapy.Field()

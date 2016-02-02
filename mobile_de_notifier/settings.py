@@ -1,4 +1,5 @@
 import os
+import pwd
 import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -16,6 +17,11 @@ APPLICATIONS_MODULE = 'apps'
 
 # Make APPLICATIONS_MODULE folder available in the sys.path
 sys.path.insert(0, os.path.join(BASE_DIR, APPLICATIONS_MODULE))
+
+# Make the scrapy project available for management commands
+os.environ['SCRAPY_SETTINGS_MODULE'] = (
+    'scrapers.cars_scraper.cars_scraper.settings'
+)
 
 
 # Application definition
@@ -126,10 +132,6 @@ USE_L10N = True
 USE_TZ = True
 
 # Scheduler settings
-
-# Frequency of scheduler polling in minutes
-SCHEDULER_BEAT_INTERVAL = 5
-
 # Used for resolving the path to python executable
 RUNNING_IN_VIRTUALENV = True
 
@@ -139,9 +141,28 @@ SHEDUELR_SCRIPTS_DIRECTORY = os.path.join(BASE_DIR, 'scripts')
 SCHDEULER_SCRIPT_NAME = 'scheduler.py'
 
 # The user whose crontab file will be used
-CRONTAB_USER = 'root'
+CRONTAB_USER = pwd.getpwuid(os.getuid())[0]
 
-CRONTAB_ENTRY_COMMENT = "python_mobile_de_notifier_scheduler"
+# Interval (in minutes) at which the crawler should run
+CRAWLER_SCHEDULER_BEAT_INTERVAL = 5
+
+# Interval (in minutes) at which the mailing should be run
+MAILING_SCHEDULER_BEAT_INTERVAL = 5
+
+# Comment by which the crawler cron job is recognized
+CRONTAB_CRAWLER_ENTRY_COMMENT = 'python_mobile_de_notifier_scheduler_crawler'
+
+# Comment by which the mailing cron job is recognized
+CRONTAB_MAILING_ENTRY_COMMENT = 'python_mobile_de_notifier_scheduler_mailing'
+
+# Scrapy
+SCRAPERS_DIR = os.path.join(BASE_DIR, 'scrapers')
+SCRAPY_PROJECT_ROOT = os.path.join(SCRAPERS_DIR, 'cars_scraper')
+SPIDER_NAME = 'mobile_de'
+
+# The address and password from which the mails will be sent
+PROJECT_MAIL_ADDRESS = 'mobilede.noreply@gmail.com'
+PROJECT_MAIL_PASS = 'scraperMobileDE'
 
 # Static files (CSS, JavaScript, Images)
 
