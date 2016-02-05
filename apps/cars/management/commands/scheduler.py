@@ -99,7 +99,8 @@ class Command(BaseCommand):
         self.handle_job(job, action)
 
     def handle(self, *args, **options):
-        if 'crawler' in options:
+        import pudb; pu.db
+        if 'crawler' in options and options['crawler']:
             self.handle_crawler(options['crawler'])
-        elif 'mailing' in options:
+        elif 'mailing' in options and options['mailing']:
             self.handle_mailing(options['mailing'])
