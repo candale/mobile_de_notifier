@@ -21,8 +21,9 @@ class CarInline(admin.TabularInline):
 
 @admin.register(Car)
 class CarAdmin(admin.ModelAdmin):
-    fields = ('title', 'url', 'price', 'seller_info', 'images')
-    readonly_fields = ('title', 'url', 'price', 'seller_info', 'images')
+    fields = ('title', 'url', 'price', 'seller_info', 'images', 'seen')
+    readonly_fields = (
+        'title', 'url', 'price', 'seller_info', 'images', 'seen')
 
     def images(self, obj):
         html = ''

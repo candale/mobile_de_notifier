@@ -164,6 +164,10 @@ SPIDER_NAME = 'mobile_de'
 PROJECT_MAIL_ADDRESS = 'mobilede.noreply@gmail.com'
 PROJECT_MAIL_PASS = 'scraperMobileDE'
 
+# Mail settings
+MAIL_ADDRESS = 'mobilede.noreply@gmail.com'
+MAIL_PASSWORD = 'scraperMobileDE'
+
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'

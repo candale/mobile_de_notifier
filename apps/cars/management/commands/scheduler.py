@@ -1,7 +1,7 @@
 from os import path
 import subprocess
 
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from django.conf import settings
 
 from crontab import CronTab
@@ -50,7 +50,7 @@ class Command(BaseCommand):
         )
 
     def get_mailing_command(self):
-        return 'cd {} && {} manage.py send_mails'.format(
+        return 'cd {} && {} manage.py send_emails'.format(
             settings.BASE_DIR,
             self.get_python_path()
         )
