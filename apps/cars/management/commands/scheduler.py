@@ -57,7 +57,7 @@ class Command(BaseCommand):
 
     def _get_or_create_job(self, command, comment, interval):
         jobs_list = list(
-            self._crontab.find_comment(settings.CRONTAB_ENTRY_COMMENT)
+            self._crontab.find_comment(comment)
         )
 
         if len(jobs_list) > 1:
