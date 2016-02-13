@@ -9,22 +9,28 @@ import sys
 
 # Django project root
 DJANGO_PROJECT_NAME = 'mobile_de_notifier'
-DJANGO_PROJECT_ROOT = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))
+
+# <django_root>/scrapers/<scraper_project_root>/<scraper_root>
+DJANGO_PROJECT_ROOT = (
+    dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))
+)
 sys.path.insert(0, DJANGO_PROJECT_ROOT)
 
 # Make Django project settings available
-os.environ['DJANGO_SETTINGS_MODULE'] = '{}.settings'.format(DJANGO_PROJECT_NAME)
+os.environ['DJANGO_SETTINGS_MODULE'] = (
+    '{}.settings'.format(DJANGO_PROJECT_NAME)
+)
 
 import django
 from django.conf import settings as django_settings
 django.setup()
 
 
-BOT_NAME = 'car_scraping'
+BOT_NAME = 'cars_scraper'
 HTTPCACHE_IGNORE_HTTP_CODES = [301, 302]
 
-SPIDER_MODULES = ['car_scraping.spiders']
-NEWSPIDER_MODULE = 'car_scraping.spiders'
+SPIDER_MODULES = ['cars_scraper.spiders']
+NEWSPIDER_MODULE = 'cars_scraper.spiders'
 
 BASEDIR = os.getcwd()
 
@@ -42,7 +48,7 @@ DATABSE_FILE = django_settings.DATABSE_ABS_PATH
 
 # Configure item pipelines
 ITEM_PIPELINES = {
-   'car_scraping.pipelines.CarScrapingPipeline': 300,
+   'cars_scraper.pipelines.CarScrapingPipeline': 300,
 }
 
 # Logger setup
@@ -69,13 +75,13 @@ LOGGING = {
         }
     },
     'loggers': {
-        'car_scraping': {
+        'cars_scraper': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
         'scrapy': {
             'handlers': ['console', 'file'],
-            'level': 'WARNING'
+            'level': 'INFO'
         }
     }
 }

@@ -5,5 +5,5 @@ from django.contrib.auth.views import login as django_login_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^login/$', django_login_view, {'template_name': 'login.html'}),
+    # url(r'^login/$', django_login_view, {'template_name': 'login.html'}),
 ]

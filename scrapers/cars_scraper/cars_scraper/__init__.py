@@ -1,7 +1,7 @@
 import logging
 import logging.config
 
-import car_scraping.settings as settings
+import cars_scraper.settings as settings
 
 # Setup logging
 logging.config.dictConfig(settings.LOGGING)
