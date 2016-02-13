@@ -1,10 +1,10 @@
-
+#! /bin/bash
 NAME="mobile_de_notifier"  
 DJANGODIR=/root/workspace/virtualenvs/car_scraping/mobile_de_notifier  
 SOCKFILE=/root/workspace/virtualenvs/car_scraping/run/gunicorn.sock  
 USER=root                                       
 # GROUP=webapps                                
-NUM_WORKERS=9                                 
+NUM_WORKERS=2                                
 DJANGO_SETTINGS_MODULE=mobile_de_notifier.settings 
 DJANGO_WSGI_MODULE=mobile_de_notifier.wsgi 
 

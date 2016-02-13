@@ -1,0 +1,13 @@
+server {
+    listen 8089;
+    server_name 212.47.248.43;
+
+    location /static {
+        alias /root/workspace/virtualenvs/car_scraping/mobile_de_notifier/static;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/root/workspace/virtualenvs/car_scraping/run/gunicorn.sock;
+    }
+}
