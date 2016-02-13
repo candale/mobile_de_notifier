@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
 from django.db import models
 from django.core import urlresolvers
+from django.utils.encoding import smart_unicode
 from django.contrib.contenttypes.models import ContentType
 
 from notifications.models import SearchUrl
@@ -24,8 +26,8 @@ class Car(models.Model):
             args=(self.id,)
         )
 
-    def __str__(self):
-        return '{} || {}'.format(self.title, self.price)
+    def __unicode__(self):
+        return smart_unicode('{} || {}'.format(self.title, self.price))
 
 
 class MobileDeUrlPhoto(models.Model):

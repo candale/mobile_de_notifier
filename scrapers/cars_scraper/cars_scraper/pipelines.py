@@ -4,6 +4,7 @@ from urlparse import urlsplit
 
 from cars import models as django_cars_scraper_models
 
+
 logger = logging.getLogger(__name__)
 
 

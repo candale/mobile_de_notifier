@@ -81,7 +81,7 @@ LOGGING = {
         },
         'scrapy': {
             'handlers': ['console', 'file'],
-            'level': 'WARNING'
+            'level': 'INFO'
         }
     }
 }

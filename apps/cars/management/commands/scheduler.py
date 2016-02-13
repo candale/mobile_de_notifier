@@ -66,10 +66,12 @@ class Command(BaseCommand):
 
         if not jobs_list:
             job = self._crontab.new(command=command, comment=comment)
-            job.minute.every(interval)
             job.enable(False)
         else:
             job = jobs_list[0]
+
+        # Update the interval in case the passed one is different from the job
+        job.minute.every(interval)
 
         return job
 
@@ -81,6 +83,10 @@ class Command(BaseCommand):
         if action == 'stop' and job.is_enabled():
             job.enable(False)
             self._crontab.write()
+
+        msg = 'Successfully {} scheduler on job {}'.format(
+            'started' if action == 'start' else 'stopped', job.comment)
+        self.stdout.write(self.style.SUCCESS(msg))
 
     def handle_crawler(self, action):
         job = self._get_or_create_job(

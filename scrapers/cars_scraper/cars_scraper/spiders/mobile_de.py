@@ -38,6 +38,9 @@ class MobileDeSpider(scrapy.Spider):
 
             yield request
 
+    def make_mobile_de_url(self, url):
+        return urlparse.urljoin('http://www.mobile.de', url)
+
     def get_page_cars_scraper_urls(self, response):
         '''
         Gets the URL for the main page, for each car, from the main
@@ -45,7 +48,7 @@ class MobileDeSpider(scrapy.Spider):
         '''
         car_hrefs = response.xpath(self.Xpath.RESULT_PAGE_CAR_URL)
 
-        return [car_url.extract() for car_url in car_hrefs]
+        return [self.make_mobile_de_url(car_url.extract()) for car_url in car_hrefs]
 
     def get_next_page_url(self, response):
         next_url = response.xpath(self.Xpath.NEXT_PAGE_XPATH)
@@ -54,7 +57,7 @@ class MobileDeSpider(scrapy.Spider):
 
         url = next_url[0].extract()
 
-        return urlparse.urljoin('http://www.mobile.de', url)
+        return self.make_mobile_de_url(url)
 
     def parse(self, response):
         # Parse the main page of each car from the result page
@@ -68,7 +71,12 @@ class MobileDeSpider(scrapy.Spider):
         # Get the next result page and parse it
         next_url = self.get_next_page_url(response)
         if next_url:
-            yield Request(next_url)
+            request = Request(next_url)
+            request.meta['origin_search_url'] = (
+                response.meta['origin_search_url']
+            )
+
+            yield request
 
     def parse_car(self, response):
         item = items.CarItem()

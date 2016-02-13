@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import datetime
 
@@ -55,6 +56,8 @@ class SearchUrl(models.Model):
 
         self.save()
 
-    def __str__(self):
+    def __unicode__(self):
         return '{} | Every {} {}'.format(
-            self.title, self.update_interval, self.interval_measure)
+            self.title.encode('utf8'), self.update_interval,
+            self.interval_measure
+        ).decode('unicode-escape')

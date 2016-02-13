@@ -144,10 +144,10 @@ SCHDEULER_SCRIPT_NAME = 'scheduler.py'
 CRONTAB_USER = pwd.getpwuid(os.getuid())[0]
 
 # Interval (in minutes) at which the crawler should run
-CRAWLER_SCHEDULER_BEAT_INTERVAL = 5
+CRAWLER_SCHEDULER_BEAT_INTERVAL = 1
 
 # Interval (in minutes) at which the mailing should be run
-MAILING_SCHEDULER_BEAT_INTERVAL = 5
+MAILING_SCHEDULER_BEAT_INTERVAL = 1
 
 # Comment by which the crawler cron job is recognized
 CRONTAB_CRAWLER_ENTRY_COMMENT = 'python_mobile_de_notifier_scheduler_crawler'
