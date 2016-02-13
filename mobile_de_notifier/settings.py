@@ -9,9 +9,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6rw)cbi=_1s)!dp6i3q^q&)e$80g2m9ng%+973zm152h&8-4a^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['212.47.248.43']
 
 APPLICATIONS_MODULE = 'apps'
 
@@ -144,10 +144,10 @@ SCHDEULER_SCRIPT_NAME = 'scheduler.py'
 CRONTAB_USER = pwd.getpwuid(os.getuid())[0]
 
 # Interval (in minutes) at which the crawler should run
-CRAWLER_SCHEDULER_BEAT_INTERVAL = 1
+CRAWLER_SCHEDULER_BEAT_INTERVAL = 10
 
 # Interval (in minutes) at which the mailing should be run
-MAILING_SCHEDULER_BEAT_INTERVAL = 1
+MAILING_SCHEDULER_BEAT_INTERVAL = 20
 
 # Comment by which the crawler cron job is recognized
 CRONTAB_CRAWLER_ENTRY_COMMENT = 'python_mobile_de_notifier_scheduler_crawler'
@@ -170,5 +170,5 @@ MAIL_PASSWORD = 'scraperMobileDE'
 
 # Static files (CSS, JavaScript, Images)
 
+STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
