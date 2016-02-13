@@ -1,7 +1,8 @@
-import json
-import os
 import urlparse
 import logging
+from datetime import datetime
+
+from django.db.models import Q
 
 import scrapy
 from scrapy import Request
@@ -9,6 +10,7 @@ from scrapy import Request
 import car_scraping.items as items
 from car_scraping.utils import extract_text_from_html
 
+from notifications.models import SearchUrl
 
 logger = logging.getLogger(__name__)
 
@@ -25,11 +27,13 @@ class MobileDeSpider(scrapy.Spider):
         logger.info('Started mobile_de spider')
 
     def start_requests(self):
-        conf_path = os.path.join(
-            self.settings['BASEDIR'], self.settings['SEARCHES_URL_CONF'])
-        urls_conf = json.load(open(conf_path, 'r'))
-        for url in urls_conf['urls']:
-            yield Request(url)
+        urls = SearchUrl.objects.filter(
+            Q(next_run_date__lte=datetime.now()) | Q(next_run_date=None),
+            is_active=True
+        )
+        for search_url in urls:
+            yield Request(search_url.url)
+            search_url.increment_scraped_counter()
 
     def get_page_cars_urls(self, response):
         '''

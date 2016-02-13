@@ -1,8 +1,9 @@
 from django.conf.urls import url
 from django.contrib import admin
-from cars import views as cars_views
+from django.contrib.auth.views import login as django_login_view
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'login/$', cars_views.LoginView.as_view()),
+    url(r'^login/$', django_login_view, {'template_name': 'login.html'}),
 ]

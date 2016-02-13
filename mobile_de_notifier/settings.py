@@ -34,7 +34,8 @@ OTHER_APPS = [
 ]
 
 MY_APPS = [
-    'cars'
+    'cars',
+    'notifications'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + OTHER_APPS + MY_APPS
@@ -62,11 +63,13 @@ SESSION_COOKIE_AGE = 604800
 
 ROOT_URLCONF = 'mobile_de_notifier.urls'
 
+LOGIN_REDIRECT_URL = '/searches'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, "cars/templates"),
+            os.path.join(BASE_DIR, "templates"),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -81,7 +84,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mobile_de_notifier.wsgi.application'
-
 
 # Database
 
@@ -123,8 +125,25 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Scheduler settings
+
+# Frequency of scheduler polling in minutes
+SCHEDULER_BEAT_INTERVAL = 5
+
+# Used for resolving the path to python executable
+RUNNING_IN_VIRTUALENV = True
+
+SHEDUELR_SCRIPTS_DIRECTORY = os.path.join(BASE_DIR, 'scripts')
+
+# The script that triggers the crawler and mail sending
+SCHDEULER_SCRIPT_NAME = 'scheduler.py'
+
+# The user whose crontab file will be used
+CRONTAB_USER = 'root'
+
+CRONTAB_ENTRY_COMMENT = "python_mobile_de_notifier_scheduler"
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
