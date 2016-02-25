@@ -60,7 +60,6 @@ class MobileDeSpider(scrapy.Spider):
         return self.make_mobile_de_url(url)
 
     def parse(self, response):
-        import pudb; pu.db
         # Parse the main page of each car from the result page
         for car_url in self.get_page_cars_scraper_urls(response):
             request = Request(car_url, callback=self.parse_car)
