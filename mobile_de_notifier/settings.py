@@ -11,7 +11,7 @@ SECRET_KEY = '6rw)cbi=_1s)!dp6i3q^q&)e$80g2m9ng%+973zm152h&8-4a^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['212.47.248.43']
+ALLOWED_HOSTS = ['212.47.229.77']
 
 APPLICATIONS_MODULE = 'apps'
 

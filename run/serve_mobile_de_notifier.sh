@@ -1,7 +1,7 @@
 #! /bin/bash
 NAME="mobile_de_notifier"  
-DJANGODIR=/root/workspace/virtualenvs/car_scraping/mobile_de_notifier  
-SOCKFILE=/root/workspace/virtualenvs/car_scraping/run/gunicorn.sock  
+DJANGODIR=/root/releases/mobile_de_notifier/mobile_de_notifier  
+SOCKFILE=/root/releases/mobile_de_notifier/mobile_de_notifier/run/gunicorn.sock  
 USER=root                                       
 # GROUP=webapps                                
 NUM_WORKERS=2                                

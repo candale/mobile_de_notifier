@@ -3,11 +3,11 @@ server {
     server_name 212.47.248.43;
 
     location /static {
-        alias /root/workspace/virtualenvs/car_scraping/mobile_de_notifier/static;
+        alias /root/releases/mobile_de_notifier/mobile_de_notifier/static;
     }
 
     location / {
         include proxy_params;
-        proxy_pass http://unix:/root/workspace/virtualenvs/car_scraping/run/gunicorn.sock;
+        proxy_pass http://unix:/root/releases/mobile_de_notifier/mobile_de_notifier/run/gunicorn.sock;
     }
 }
