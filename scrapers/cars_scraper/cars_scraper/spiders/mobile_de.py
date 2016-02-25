@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 class MobileDeSpider(scrapy.Spider):
     class Xpath:
-        RESULT_PAGE_CAR_URL = "//a[@class='row vehicle-data']/@href"
+        RESULT_PAGE_CAR_URL = "//a[@class='vehicle-data']/@href"
         NEXT_PAGE_XPATH = "//a[contains(@class, 'pagination-nav-right')]/@href"
 
     name = 'mobile_de'
@@ -60,6 +60,7 @@ class MobileDeSpider(scrapy.Spider):
         return self.make_mobile_de_url(url)
 
     def parse(self, response):
+        import pudb; pu.db
         # Parse the main page of each car from the result page
         for car_url in self.get_page_cars_scraper_urls(response):
             request = Request(car_url, callback=self.parse_car)
